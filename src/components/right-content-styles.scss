@@ -5,6 +5,7 @@
     flex-basis: 100%;
     color: black;
     text-align: center;
+    flex-grow: 1;
     .content {
         text-align: center;
         line-height: 1.6;
@@ -27,5 +28,16 @@
                 }
             }
         }
+
+      
+    }
+    .image-wrapper {
+        width: 311px;
+        height: 407px;
+        background-size: 311px 407px;
+        background-repeat: no-repeat;
+        position: relative;
+        left: 50%;
+        margin-left: -155.5px;
     }
 }

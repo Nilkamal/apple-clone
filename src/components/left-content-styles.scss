@@ -1,0 +1,31 @@
+.left-content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    flex-basis: 100%;
+    background: #161617;
+    text-align: center;
+
+    .content {
+        text-align: center;
+        line-height: 1.6;
+        padding-top: 111px;
+        padding-bottom: 82px;
+        h1 {
+            font-size: 45px;
+        }
+        ul {
+            display: flex;
+            justify-content: center;
+            li {
+                list-style-type: none;
+                padding: 0 10px;
+                a {
+                    font-size:17px;
+                    color: #2997ff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
